@@ -1,6 +1,6 @@
 module github.com/syncthing/syncthing
 
-go 1.24.0
+go 1.26.0
 
 require (
 	github.com/AudriusButkevicius/recli v0.0.7
@@ -42,11 +42,11 @@ require (
 	github.com/willabides/kongplete v0.4.0
 	github.com/wlynxg/anet v0.0.5
 	go.uber.org/automaxprocs v1.6.0
-	golang.org/x/crypto v0.44.0
+	golang.org/x/crypto v0.58.0
 	golang.org/x/exp v0.0.0-20250811191247-51f88131bc50
-	golang.org/x/net v0.47.0
-	golang.org/x/sys v0.38.0
-	golang.org/x/text v0.31.0
+	golang.org/x/net v0.60.0
+	golang.org/x/sys v0.49.0
+	golang.org/x/text v0.43.0
 	golang.org/x/time v0.12.0
 	google.golang.org/protobuf v1.36.7
 	modernc.org/sqlite v1.38.2
@@ -97,10 +97,10 @@ require (
 	github.com/tklauser/numcpus v0.10.0 // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 	go.yaml.in/yaml/v2 v2.4.2 // indirect
-	golang.org/x/mod v0.29.0 // indirect
-	golang.org/x/sync v0.18.0 // indirect
-	golang.org/x/telemetry v0.0.0-20251008203120-078029d740a8 // indirect
-	golang.org/x/tools v0.38.0 // indirect
+	golang.org/x/mod v0.41.0 // indirect
+	golang.org/x/sync v0.24.0 // indirect
+	golang.org/x/telemetry v0.0.0-20260924152758-ed294f943157 // indirect
+	golang.org/x/tools v0.51.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	modernc.org/libc v1.66.3 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
