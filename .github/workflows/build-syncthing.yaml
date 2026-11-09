@@ -1039,7 +1039,7 @@ jobs:
           EXTRA_LDFLAGS: "-linkmode=external -extldflags=-static"
 
       - name: Login to GHCR
-        uses: docker/login-action@v3
+        uses: docker/login-action@v4
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
